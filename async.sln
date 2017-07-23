@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "async", "async\async.csproj", "{3CE2E8CD-20F8-469B-B03D-E8C25A81455C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCAsync", "MVCAsync\MVCAsync.csproj", "{C60E73B0-63BD-406E-9F44-4B87E2E3ABCC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3CE2E8CD-20F8-469B-B03D-E8C25A81455C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CE2E8CD-20F8-469B-B03D-E8C25A81455C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CE2E8CD-20F8-469B-B03D-E8C25A81455C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C60E73B0-63BD-406E-9F44-4B87E2E3ABCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C60E73B0-63BD-406E-9F44-4B87E2E3ABCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C60E73B0-63BD-406E-9F44-4B87E2E3ABCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C60E73B0-63BD-406E-9F44-4B87E2E3ABCC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
