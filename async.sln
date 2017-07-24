@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "async", "async\async.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCAsync", "MVCAsync\MVCAsync.csproj", "{C60E73B0-63BD-406E-9F44-4B87E2E3ABCC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thread", "Thread\Thread.csproj", "{8EFDE2FC-CACF-40A2-8295-754E21114BCB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C60E73B0-63BD-406E-9F44-4B87E2E3ABCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C60E73B0-63BD-406E-9F44-4B87E2E3ABCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C60E73B0-63BD-406E-9F44-4B87E2E3ABCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EFDE2FC-CACF-40A2-8295-754E21114BCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EFDE2FC-CACF-40A2-8295-754E21114BCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EFDE2FC-CACF-40A2-8295-754E21114BCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EFDE2FC-CACF-40A2-8295-754E21114BCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
