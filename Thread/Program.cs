@@ -12,30 +12,18 @@ namespace ThreadSample
         static void Main(string[] args)
         {
             Thread obj1 =new Thread(Function1);
-            Thread obj2 = new Thread(Function2);
-
+            obj1.IsBackground = true;
             obj1.Start();
-            obj2.Start();
-
-            Console.ReadKey();
+            Console.WriteLine("This is End");
         }
         static private void Function1()
         {
-            for (int i = 0; i < 10; i++)
-            {
-                Console.WriteLine($"Function1 i={i}");
-                Thread.Sleep(4000);
-            }
+            Console.WriteLine("First");
+            Console.ReadKey();
+            Console.WriteLine("Second");
         }
 
-        static private void Function2()
-        {
-            for (int i = 0; i < 10; i++)
-            {
-                Console.WriteLine($"Function2 i={i}");
-                Thread.Sleep(4000);
-            }
-        }
+     
 
     }
 }
